@@ -26,7 +26,7 @@ const User = mongoose.model('User', new mongoose.Schema({
 }));
 
 // Routes
-app.post('/signup', async (req, res) => {
+app.post('/', async (req, res) => {
   const { name, email, password } = req.body;
   try {
     const newUser = await User.create({ name, email, password });
