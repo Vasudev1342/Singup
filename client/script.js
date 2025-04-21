@@ -8,7 +8,7 @@ document.getElementById('signupForm').addEventListener('submit', async (e) => {
                               const messageBox = document.getElementById('message');
                             
                               try {
-                                const res = await fetch('http://localhost:5000/signup', {
+                                const res = await fetch('https://singup-1.onrender.com/', {
                                   method: 'POST',
                                   headers: {
                                     'Content-Type': 'application/json'
