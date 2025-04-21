@@ -1,0 +1,23 @@
+body {
+                              font-family: sans-serif;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              height: 100vh;
+                              background: #f2f2f2;
+                            }
+                            
+                            .form-container {
+                              background: white;
+                              padding: 2em;
+                              border-radius: 10px;
+                              box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                            }
+                            
+                            input, button {
+                              display: block;
+                              width: 100%;
+                              margin: 0.5em 0;
+                              padding: 0.8em;
+                            }
+                            
